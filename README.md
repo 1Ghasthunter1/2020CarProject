@@ -14,7 +14,7 @@ This result that the program spits out is the area underneath the curve of data 
 `Miles / Hour * Hour` yields the unit Miles, which is what this program outputs.
 
 <H3> Explaining the code </H3>
-Please note, when you see a `#Something Text blah blah` In the code document, that is a comment, and I have left those there to help clear up what the program is doing at a certain time.
+Please note, when you see a __#SomeText And Words__ In the code document, that is a comment, and I have left those there to help clear up what the program is doing at a certain time.
 
 In essence, the program starts off by creating a set of pre-defined functions that will be used later. These functions include `find_abcd`, which simply finds the abcd values of a quadrilateral. There are also functions like `find_s`, `find_area`, etc. Note that all of these functions have been programmed myself and all of the math you see in these functions are all programmed by myself.
 
