@@ -1,6 +1,6 @@
 import math #gives the program math ability
 import xlrd #gives the program the ability to read the data from an excel file
-import trianglesolver
+import trianglesolver #only utilizes the SSS function, law of cosines
 
 excel_sheet_location = ("data.xlsx")
 
