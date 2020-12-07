@@ -27,14 +27,12 @@ def get_data_from_excel(): #This program simply extracts the graph you see in pr
         Bx, By = previous_point
         Ax, Ay = Bx, 0
         temp_list.append(((Ax, Ay),
-                            (Bx, By),
-                            (Cx, Cy),
-                            (Dx, Dy)))
+                          (Bx, By),
+                          (Cx, Cy),
+                          (Dx, Dy)))
         previous_point = current_point
     return temp_list
 
-    
-        
 def find_abcd(four_point_tuple): #Calculates all of the side lengths based on the four vertices given to this function
     def distance_formula(point_a, point_b):
         return math.sqrt((point_b[0] - point_a[0])**2 + (point_b[1] - point_a[1])**2)
@@ -44,10 +42,6 @@ def find_abcd(four_point_tuple): #Calculates all of the side lengths based on th
     c = distance_formula(Cpoint, Dpoint)
     d = distance_formula(Dpoint, Apoint)
     return (a, b, c, d)
-    
-    
-
-
 
 def find_s(side_length_tuple): #Finds the S value from all of the side lengths
     '''
@@ -56,7 +50,6 @@ def find_s(side_length_tuple): #Finds the S value from all of the side lengths
     Takes a 4-value tuple as input with each side length, returns the S value
 
     '''
-    
     a, b, c, d = side_length_tuple
     s = (a+b+c+d)/2
     return s
@@ -107,7 +100,6 @@ def find_area_of_quadrilaterial(quadrilateral_tuple): #Takes all of the 6 values
         area = math.sqrt((s - a) * (s - b) * (s - c) * (s - d) - (a * b * c * d * (math.cos(theta / 2) ** 2)))
         area = round(area, 6)
         return area
-
 
 #======== From this point below, all of the functions defined above are used. See all comments below: ========#
 abcddata = get_data_from_excel() #This function, get_data_from_excel(), Reads all of the data from an excel sheet (same data as problem 5), and combines the data into a list of four vertices reprisenting each quadrilateral
