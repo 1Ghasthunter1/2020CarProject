@@ -31,7 +31,7 @@ At the bottom of the program document, all of these functions are now used.
 <li>At this point, the program has the s value, the theta value, the a, b, c, and d value. All of this data is enough to use in our main equation (on turned in document), and the program plugs these variables into the function "find_area_of_quadrilateral", which returns the output. </li>
 <li> Finally, all of these areas are added together, and the program uses the "print" function to tell us that on the screen.</li>
 </ol>
-<H3> What the program spits out </H3>
+<H3> What the program shows me </H3>
 <p>Once I hit the run button, this is what the program shows:</p>
 
     From 0.0 to 2.0, The area is 0.0 Miles
