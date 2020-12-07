@@ -1,5 +1,5 @@
 # 2020CarProject
-Published for Ms. Mikaelian, privately.
+Published for Ms. Mikaelian
 
 I know you are probably skeptical about me using a program to do the math for me, but I invite you to read this document while I explain my work in the program, and I believe you'll see that I have more than grasped conceptually the idea that this car project was trying to teach.
 
