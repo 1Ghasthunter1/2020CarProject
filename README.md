@@ -8,6 +8,9 @@ I Highly encourage you to view the code in your browser by clicking here: https:
 If you look carefully, you will see all of the math terms, equations, and variables needed to solve this problem. I manunally coded all of these in myself, there was no copied code anyhwere here. 
 
 <h3> Car Project Code Theory </h3>
+<h4> Math Theory </h4>
+Although the original directions say to use squares, triangles, and quadrilaterals, I designed this program to operate exclusively with irregular quadrilaterals, so that any data input could be handled and processed. 
+<h4> Code Theory </h4>
 The idea behind this code was to have a program that could read data off of an excel sheet, process the data, use the necessary geometric and trigonometric functions to find the area of each irregular quadrilateral, add up all of the areas of these shapes, and spit out the output.
 
 This result that the program spits out is the area underneath the curve of data that was gathered in the car, and the unit for this data is equal to the units of the x axis (time in minutes), and the y axis (miles per hour). When you multiply the x axis units by 60, you arrive at time in hours. 
