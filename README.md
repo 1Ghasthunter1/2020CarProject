@@ -4,7 +4,8 @@ Published for Ms. Mikaelian, privately.
 I know you are probably skeptical about me using a program to do the math for me, but I invite you to read this document while I explain my work in the program, and I believe you'll see that I have more than grasped conceptually the idea that this car project was trying to teach.
 
 <h3> Optional: Open the Code Document </h3>
-[I highly encourage you to view the code by clicking Here](https://github.com/1Ghasthunter1/2020CarProject/blob/main/graphareafinder.py). If you look carefully, you will see all of the math terms, equations, and variables needed to solve this problem. Do note I manunally coded all of these in myself, there was no copied code anyhwere here. 
+I Highly encourage you to view the code in your browser by clicking here: https://github.com/1Ghasthunter1/2020CarProject/blob/main/graphareafinder.py.
+If you look carefully, you will see all of the math terms, equations, and variables needed to solve this problem. I manunally coded all of these in myself, there was no copied code anyhwere here. 
 
 <h3> Car Project Code Theory </h3>
 The idea behind this code was to have a program that could read data off of an excel sheet, process the data, use the necessary geometric and trigonometric functions to find the area of each irregular quadrilateral, add up all of the areas of these shapes, and spit out the output.
