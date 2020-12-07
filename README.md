@@ -22,11 +22,11 @@ At the bottom of the program document, all of these functions are now used.
 <h4> Events hapeen in this order: </h4>
 <ol>
 <li>Get all of the data from excel(same as on the graph on my submitted assignment), and creates a list of all of the quadrilaterals the program has found.</li>
-<li>For each one of these quadrilaterals, the program first uses the `find_abcd` function, which simply takes the four vertices that we got from step 1 and uses distance formula to derive each of the side lengths, for a, b, c, and d, of each irregular quadrilateral.</li>
-<li>Then, the program uses the `find_s` function, which simply takes all four side length values (a, b, c, d), adds them together, and divides the result by two. Note that these formulas are all listed on my submitted document</li>
-<li>After, the program finds the theta value (also on submitted document). The function `find_theta` is relatively complex, and uses all of the points of the quadrilateral and all of the sides of the quadrilateral to find the theta. This function finds the cross-section across the irregular quadrilateral, and uses law of cosines to find each theta on the opposite sides of the quadrilateral.</li>
-<li>At this point, the program has the s value, the theta value, the a, b, c, and d value. All of this data is enough to use in our main equation (on turned in document), and the program plugs these variables into the function `find_area_of_quadrilateral`, which returns the output. </li>
-<li> Finally, all of these areas are added together, and the program uses the `print` function to tell us that on the screen.</li>
+<li>For each one of these quadrilaterals, the program first uses the "find_abcd" function, which simply takes the four vertices that we got from step 1 and uses distance formula to derive each of the side lengths, for a, b, c, and d, of each irregular quadrilateral.</li>
+<li>Then, the program uses the "find_s" function, which simply takes all four side length values (a, b, c, d), adds them together, and divides the result by two. Note that these formulas are all listed on my submitted document</li>
+<li>After, the program finds the theta value (also on submitted document). The function "find_theta" is relatively complex, and uses all of the points of the quadrilateral and all of the sides of the quadrilateral to find the theta. This function finds the cross-section across the irregular quadrilateral, and uses law of cosines to find each theta on the opposite sides of the quadrilateral.</li>
+<li>At this point, the program has the s value, the theta value, the a, b, c, and d value. All of this data is enough to use in our main equation (on turned in document), and the program plugs these variables into the function "find_area_of_quadrilateral", which returns the output. </li>
+<li> Finally, all of these areas are added together, and the program uses the "print" function to tell us that on the screen.</li>
 </ol>
 <H3> What the program spits out </H3>
 <p>Once I hit the run button, this is what the program shows:</p>
