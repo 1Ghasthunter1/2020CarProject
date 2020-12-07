@@ -19,7 +19,7 @@ Please note, when you see a "#SomeText And Words" In the code document, that is 
 In essence, the program starts off by creating a set of pre-defined functions that will be used later. These functions include `find_abcd`, which simply finds the abcd values of a quadrilateral. There are also functions like `find_s`, `find_area`, etc. Note that all of these functions have been programmed myself and all of the math you see in these functions are all programmed by myself.
 
 At the bottom of the program document, all of these functions are now used. 
-<h4> Events hapeen in this order: </h4>
+<h4> Events happen in this order: </h4>
 <ol>
 <li>Get all of the data from excel(same as on the graph on my submitted assignment), and creates a list of all of the quadrilaterals the program has found.</li>
 <li>For each one of these quadrilaterals, the program first uses the "find_abcd" function, which simply takes the four vertices that we got from step 1 and uses distance formula to derive each of the side lengths, for a, b, c, and d, of each irregular quadrilateral.</li>
