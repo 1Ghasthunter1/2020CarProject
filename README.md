@@ -48,5 +48,3 @@ At the bottom of the program document, all of these functions are now used.
     The total area under the curve is 19.7 Miles
 
 Each irregular quadrilateral has a range on the x-axis, within the two minutes specified for each recording interval. For each quadrilateral, the area is individually calculated. Then, all of the data is added together and printed out at the end of the program.
-
-I hope this helps you understand that I really did succeed with learning what this activity was meant to teach me. Programming a computer is similar to teaching someone how to do an activity, except that this person needs to know exactly, pin-point how to do the problem, or else they completely fail. And, of course, teaching only solidifies what a person already knows, not what they don't know. 
