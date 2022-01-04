@@ -1,7 +1,5 @@
 # 2020 Car Project
-Published for Ms. Mikaelian
-
-I know you are probably skeptical about me using a program to do the math for me, but I invite you to read this document while I explain my work in the program, and I believe you'll see that I have more than grasped conceptually the idea that this car project was trying to teach.
+A script that finds the integral of data using trapezoids.
 
 <h3> Optional: Open the Code Document </h3>
 I Highly encourage you to view the code in your browser by clicking here: https://github.com/1Ghasthunter1/2020CarProject/blob/main/graphareafinder.py.
