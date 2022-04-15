@@ -1,4 +1,4 @@
-# 2020 Car Project
+# 2020 Car Project - Calculus AB
 A script that finds the integral of data using trapezoids.
 
 <h3> Optional: Open the Code Document </h3>
